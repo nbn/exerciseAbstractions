@@ -5,7 +5,7 @@ internal class Program
     public static void Main(string[] args)
     {
         Sinatra sinatra = new Sinatra();
-        Console.WriteLine($"The singer is {sinatra}"); // 1) Use getName
+        Console.WriteLine($"Tonight featuring {sinatra}"); // 1) Use getName
 
         sinatra.Talk();
         // 2) Uncomment this
