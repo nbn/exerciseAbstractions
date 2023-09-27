@@ -23,8 +23,8 @@ internal class Program
 
     }
 
-    class Sinatra
+    class Sinatra // implement the interface
     {
-        
+        // Provide the implementation
     }
 }
