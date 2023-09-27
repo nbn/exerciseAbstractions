@@ -6,7 +6,8 @@ internal class Program
     {
         Sinatra sinatra = new Sinatra();
         Console.WriteLine($"The singer is {sinatra}"); // 1) Use getName
-        
+
+        sinatra.Talk();
         // 2) Uncomment this
         // sinatra.Sing();
         
@@ -25,6 +26,11 @@ internal class Program
 
     class Sinatra // implement the interface
     {
-        // Provide the implementation
+        // Provide the interface implementation
+
+        public void Talk()
+        {
+            Console.WriteLine("Good evening Las Vegas");
+        }
     }
 }
